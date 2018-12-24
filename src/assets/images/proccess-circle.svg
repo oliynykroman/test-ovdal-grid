@@ -1,0 +1,66 @@
+<svg id="testSVG" width="100%" height="100%" viewBox="0 0 560 579" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <defs></defs>
+        <g id="Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g id="Home-page" transform="translate(-468.000000, -4542.000000)">
+                <g id="PROCES" transform="translate(0.000000, 4230.000000)">
+                    <g id="Infographic" transform="translate(262.000000, 263.000000)">
+                        <g id="Group-2" transform="translate(201.000000, 0.000000)">
+
+                            <path data-delay='0' data-start="0" data-duration="50" id="l-t" stroke="#42444C"
+                                  stroke-width="9"
+                                  d="M285,59 C162.658034,59 58.9754445,135.890291 23.2753428,246.347764"></path>
+                            <path data-delay='0' data-start="65" data-duration="50"
+                                  d="M114.067603,565.113609 C161.797253,599.645591 220.457765,623 283.872304,623 C347.784539,623 406.867832,602.324843 454.79877,567.297941 C478.036405,550.316376 498.652729,529.961497 515.927167,506.953881"
+                                  id="l-b" stroke="#42444C" stroke-width="9"></path>
+
+                            <path data-delay='0' data-start="45" data-duration="50" id="r-t" stroke="#42444C"
+                                  stroke-width="5"
+                                  d="M448.835218,559.377024 C517.458836,508.960303 562,427.681724 562,336 C562,306.392345 557.354804,277.869633 548.753448,251.120902 C541.202196,227.63781 530.601799,205.521985 517.418486,185.239652 C468.027437,109.252253 382.38224,59 285,59 M21.5355845,250.227303 C12.7493047,277.234056 8,306.062398 8,336 C8,428.541965 53.3809362,510.484645 123.102792,560.788022"></path>
+
+                            <path data-delay='1' data-start="80" data-duration="20"
+                                  d="M453.857528,562.011775 C473.378169,514.58329 484.144461,462.628259 484.144461,408.158626 C484.144461,259.307306 403.74324,129.234697 284,59"
+                                  id="d-r-c" stroke="#42444C"></path>
+                            <path data-delay='1' data-start="100" data-duration="20"
+                                  d="M257.857528,562.011775 C277.378169,514.58329 288.144461,462.628259 288.144461,408.158626 C288.144461,259.307306 207.74324,129.234697 88,59"
+                                  id="Oval-4-Copy" stroke="#42444C"
+                                  transform="translate(188.072230, 310.505887) scale(-1, 1) translate(-188.072230, -310.505887) "></path>
+                            <path data-delay='1' data-start="120" data-duration="20"
+                                  d="M299.173934,663.769587 C318.694575,616.341102 329.460867,564.386072 329.460867,509.916439 C329.460867,361.065119 249.059646,230.992509 129.316406,160.757812"
+                                  id="Oval-4-Copy-6" stroke="#42444C"
+                                  transform="translate(229.388637, 412.263700) scale(-1, -1) rotate(-36.000000) translate(-229.388637, -412.263700) "></path>
+                            <path data-delay='1' data-start="140" data-duration="20"
+                                  d="M407.819072,671.975187 C427.339712,624.546702 438.106004,572.591671 438.106004,518.122038 C438.106004,369.270718 357.704784,239.198109 237.961544,168.963412"
+                                  id="Oval-4-Copy-2" stroke="#42444C"
+                                  transform="translate(338.033774, 420.469299) scale(-1, -1) rotate(-108.000000) translate(-338.033774, -420.469299) "></path>
+                            <path data-delay='1' data-start="160" data-duration="20"
+                                  d="M558.638673,557.972846 C559.268242,548.742851 559.58818,539.427825 559.58818,530.038073 C559.58818,420.166525 515.782771,320.526278 444.684273,247.629655"
+                                  id="Oval-4-Copy-3" stroke="#42444C"
+                                  transform="translate(502.136227, 402.801251) scale(-1, 1) rotate(4.000000) translate(-502.136227, -402.801251) "></path>
+                            <path data-delay='1' data-start="180" data-duration="20"
+                                  d="M341.95655,710.416141 C342.586119,701.186146 342.906056,691.87112 342.906056,682.481368 C342.906056,572.60982 299.100647,472.969573 228.002149,400.07295"
+                                  id="Oval-4-Copy-4" stroke="#42444C"
+                                  transform="translate(285.454103, 555.244546) scale(-1, 1) rotate(-69.000000) translate(-285.454103, -555.244546) "></path>
+                            <path data-delay='1' data-start="200" data-duration="20"
+                                  d="M207.546393,316.154422 C208.175962,306.924428 208.4959,297.609401 208.4959,288.219649 C208.4959,178.348101 164.69049,78.7078544 93.5919931,5.81123168"
+                                  id="Oval-4-Copy-5" stroke="#42444C"
+                                  transform="translate(151.043947, 160.982827) scale(-1, 1) rotate(-214.000000) translate(-151.043947, -160.982827) "></path>
+                            <circle id="circle5" data-start="30" class="circle" stroke="#EF4F50" stroke-width="3"
+                                    fill="#25262D" cx="22"
+                                    cy="251"
+                                    r="12"></circle>
+                            <circle id="circle4" data-start="30" class="circle" stroke="#EF4F50" stroke-width="3"
+                                    fill="#25262D" cx="456"
+                                    cy="561"
+                                    r="10"></circle>
+                            <circle id="circle3" data-start="56" class="circle" stroke="#EF4F50" stroke-width="3"
+                                    fill="#25262D" cx="115" cy="562" r="11"></circle>
+                            <circle id="circle2" data-start="56" class="circle" stroke="#EF4F50" stroke-width="3"
+                                    fill="#25262D" cx="548" cy="248" r="9"></circle>
+                            <circle id="circle1" data-start="0" class="circle" stroke="#EF4F50" stroke-width="3"
+                                    fill="#25262D" cx="283" cy="59" r="8"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </svg>

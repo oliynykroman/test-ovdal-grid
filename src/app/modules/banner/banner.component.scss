@@ -1,0 +1,260 @@
+
+.banner {
+  background-color: var(--black);
+  color: var(--white);
+  display: flex;
+  width: 100%;
+  //padding:24% 0;
+  height: 100vh;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.banner-container {
+  position: absolute;
+  background-color: var(--black);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 20px 60px 20px;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+}
+
+.image-complete {
+  .banner-image {
+    //display: none;
+  }
+}
+
+.banner-image {
+  //display: none;
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 24px;
+  min-width: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--white);
+  font-weight: bold;
+  font-size: .722em;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.54;
+  padding: 0 0 20px 0;
+  cursor: pointer;
+  span {
+    background-color: var(--red);
+    padding: 0 10px;
+    display: inline-block;
+    border-radius: 2px;
+  }
+  .arr-down {
+    background-image: url("../../../assets/images/arr-down.svg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    height: 12px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    animation: jumper-button 2s 1s ease infinite;
+  }
+  &:hover {
+    color: var(--white);
+  }
+}
+
+#mask {
+  //display: none;
+}
+
+.banner-image {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  //margin-left: -30px;
+  flex-shrink: 0;
+  animation-name: opacityBanner;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  svg {
+    width: 100% !important;
+  }
+}
+
+.cursor {
+  position: absolute;
+  top: 50%;
+  transform: translate3d(0, -50%, 0);
+  left: 0;
+  padding-left: 20px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.77em;
+  text-transform: uppercase;
+
+}
+
+#animated-banner-text {
+  text-align: center;
+  box-sizing: border-box;
+  min-height: 0;
+  display: inline;
+  width: auto;
+  padding: 0;
+}
+
+.typed-cursor {
+  color: transparent;
+  &:after {
+    content: '';
+    background-color: var(--white);
+    width: 5px;
+    height: 1.1em;
+    margin-top: 5px;
+    margin-left: -3px;
+    position: absolute;
+  }
+}
+
+//.banner-description.typed-fade-out {
+//  animation-name: opacityBanner-up;
+//  animation-timing-function: ease-in;
+//  animation-duration: 1s;
+//  animation-fill-mode: forwards;
+//}
+
+@keyframes jumper-button {
+  0% {
+    bottom: 0;
+  }
+  50% {
+    bottom: -4px;
+  }
+  100% {
+    bottom: 0;
+  }
+}
+
+@media screen and(max-width: 1100px) {
+  .after-complete {
+    .banner-image {
+      animation-name: opacityBanner-up-mob;
+      animation-timing-function: ease-in;
+      animation-duration: 0.1s;
+      animation-fill-mode: forwards;
+    }
+  }
+  .cursor {
+    width: 100%;
+    display: table;
+    left: 50%;
+    transform: translateX(-50%);
+    box-sizing: border-box;
+    max-width: 600px;
+    padding: 0 20px;
+    top: auto;
+    word-break: break-word;
+    font-size: 1.5em;
+    letter-spacing: -1px;
+  }
+
+}
+
+@media screen and (min-width: 1100px) {
+  .banner {
+    height: calc(100vh - 120px);
+  }
+  .banner-description {
+    text-align: left;
+  }
+  #mask {
+    //display: none;
+  }
+  .image-complete {
+    .banner-image {
+      display: block;
+    }
+  }
+  .banner-image {
+    width: 960px;
+    margin-left: 15px;
+  }
+  .cursor {
+    position: absolute;
+    left: 410px;
+    max-width: 660px;
+    min-height: 200px;
+    margin-top: -20px;
+    padding-left: 20px;
+    text-align: left;
+
+  }
+  .cursor, #mask {
+    text-align: left;
+    //line-height: 1.6;
+    //font-size: 3em;
+  }
+  .typed-cursor {
+    &:after {
+      height: 70px;
+      width: 5px;
+      margin-left: -10px;
+    }
+  }
+
+}
+
+@media screen and (min-width: 1420px) {
+  .banner-image {
+    width: 1217px;
+  }
+  .cursor {
+    left: 515px;
+    max-width: 780px;
+  }
+}
+
+@keyframes opacityBanner {
+  0% {
+    opacity: 0;
+    filter: blur(30px);
+    transform: scale(2);
+  }
+  30% {
+    filter: blur(0);
+    transform: scale(1);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes opacityBanner-up {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    filter: blur(100px);
+    transform: translate3d(100%, 100%, 0) scale(20);
+  }
+}
+
+@keyframes opacityBanner-up-mob {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

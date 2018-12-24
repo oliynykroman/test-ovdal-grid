@@ -1,0 +1,144 @@
+/* You can add global styles to this file, and also import other style files */
+@import "normalize";
+@import "icons";
+@import "../_scss-vars/typo";
+@import "../_scss-vars/button";
+
+:root {
+  --white: #fff;
+  --black: #25262D;
+  --red: #EF4F50;
+  --skyBlue: #2EDAF4;
+  --blue: #3AB3E1;
+  --darkBlue: #305374;
+  --gray: #C3C3C3;
+  --darkGray: #5E5F63;
+  --shadows: 0px 10px 20px rgba(0, 0, 0, 0.4);
+  --shadows_blocks: 0px 20px 40px rgba(0, 0, 0, 0.2);
+  //typography
+  --font-base: 18;
+  --h1: calc(72 / var(--font-base) * 1em);
+  --h2: calc(54 / var(--font-base) * 1em);
+  --h3: calc(32 / var(--font-base) * 1em);
+  --subtitle: calc(24 / var(--font-base) * 1em);
+  --menu_filter: $font-base;
+  --forms_controls: calc(16 / var(--font-base) * 1em);
+  --descriptions: calc(16 / var(--font-base) * 1em);
+  --contact: calc(12 / var(--font-base) * 1em);
+  --buttons: calc(13 / var(--font-base) * 1em);
+  -paragraph: var(--font-base);
+}
+
+@include font-face("icomoon", "/assets/fonts/ovdal-ico-font");
+@include font-face("josefin_sans", "/assets/fonts/josefinsans-bold-webfont", bold);
+@include font-face("josefin_sans", "/assets/fonts/josefinsans-semibold-webfont", 500);
+@include font-face("josefin_sans", "/assets/fonts/josefinsans-regular-webfont", 400);
+@include font-face("josefin_sans", "/assets/fonts/josefinsans-light-webfont", 300);
+@include font-face("josefin_sans", "/assets/fonts/josefinsans-thin-webfont", 100);
+@include font-face("josefin_sans", "/assets/fonts/josefinsans-italic-webfont", normal, italic);
+
+html, body {
+  height: 100%;
+  min-height: 100%;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-size: inherit;
+}
+
+a:hover {
+  color: var(--red);
+  text-decoration: none;
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: 'josefin_sans', sans-serif;
+  box-sizing: border-box;
+  font-size: 18px;
+  line-height: 1.4;
+  color: var(--black);
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  text-rendering: geometricPrecision;
+  &.overflow-hidden {
+    overflow: hidden;
+  }
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 1fr minmax(200px, 1100px) 1fr;
+  grid-column-gap: 20px;
+  > section {
+    grid-column: 2/3;
+    grid-row-start: 2;
+  }
+  .content-title{
+    margin-top: 60px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+}
+
+.margin-section {
+  margin-top: 70px;
+}
+
+//section header
+.section-title {
+  font-style: normal;
+  font-weight: 600;
+  //font-size: 46/18 + em;
+  font-size: 1.5em;
+  text-align: right;
+  text-transform: uppercase;
+  border-right: 7px solid var(--red);
+  padding-right: 10px;
+  margin: 0;
+  display: inline-block;
+  margin-bottom: 27px;
+  letter-spacing: -1px;
+  max-width: 100%;
+  overflow-x: hidden;
+  //word-break: break-all;
+}
+
+@media screen and (min-width: 960px) {
+  body {
+    font-size: 18px;
+  }
+  .main {
+    > section {
+      &:not(.banner) {
+        padding-top: 115px;
+
+      }
+    }
+    .section-title {
+      border-right: 6px solid var(--red);
+      padding-top: 0px;
+      padding-bottom: 8px;
+    }
+  }
+  .section-title {
+    font-size: 3em;
+    margin-bottom: 40px;
+    letter-spacing: normal;
+    padding-right: 22px;
+  }
+  .margin-section {
+    margin-top: 120px;
+  }
+
+}

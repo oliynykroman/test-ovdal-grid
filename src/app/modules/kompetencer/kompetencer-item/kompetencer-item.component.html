@@ -1,0 +1,13 @@
+<ng-container *ngIf="kompItem">
+  <a class="kompetencer-item" [routerLink]="['/kompetencer', kompItem.id]" [ngStyle]="{'background-color': kompItem.bck}"
+     data-aos="zoom-in-up">
+    <div class="kompetencer-count" data-aos="fade-left" data-aos-delay="300" data-aos-duration="200"
+         data-aos-anchor-placement="bottom-bottom">{{kompItem.id}}.
+    </div>
+    <div class="kompetencer-title" data-aos="fade-left" data-aos-delay="350" data-aos-duration="200"
+         data-aos-anchor-placement="bottom-bottom">{{kompItem.title}}
+    </div>
+    <span class="read-more" data-aos="fade-left" data-aos-delay="400" data-aos-duration="200"
+          data-aos-anchor-placement="bottom-bottom">read more</span>
+  </a>
+</ng-container>

@@ -1,0 +1,14 @@
+<nav class="sidebar" *ngIf="(menuItems$ | async) as mainNav">
+  <div class="menu-cont">
+    <a class="button-home  icon-Home" href="/"></a>
+    <nav class="main-menu">
+      <ul class="main-menu-items">
+        <li class="main-menu-item show" *ngFor="let menuItem of mainNav" routerLinkActive="active">
+          <a class="main-menu-href" [routerLink]=[menuItem.link]>
+            <span class="item-title">{{menuItem.title}}</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</nav>

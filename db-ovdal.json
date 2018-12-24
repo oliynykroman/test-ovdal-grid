@@ -1,0 +1,416 @@
+{
+  "menu": [
+    {
+      "id": 0,
+      "title": "Kompetencer",
+      "link": "kompetencer"
+    },
+    {
+      "id": 1,
+      "title": "Cases",
+      "link": "cases"
+    },
+    {
+      "id": 2,
+      "title": "Om os",
+      "link": "about"
+    },
+    {
+      "id": 3,
+      "title": "Job",
+      "link": "vacations"
+    },
+    {
+      "id": 4,
+      "title": "Blog",
+      "link": "blog"
+    }
+  ],
+  "banner": [
+    {
+      "text": "Kreativt & digitalt <br> bureau",
+      "id": 1
+    },
+    {
+      "text": "Short text",
+      "id": 2
+    },
+    {
+      "text": "Long text with some <br>message for our clients",
+      "id": 3
+    },
+    {
+      "text": "Very super long text, <br>almost like Leo Tolstoy 'War and Peace'",
+      "id": 4
+    }
+  ],
+  "process": [
+    {
+      "title": "Process",
+      "readmoreLink": "/",
+      "centerDescr": "think. design. code. repeat.",
+      "top": "Digital forretningsudvikling",
+      "topRight": "User experience",
+      "bottonRight": "Design",
+      "bottomLeft": "Programmering",
+      "topLeft": "Digital markedsføring"
+    }
+  ],
+  "adress": [
+    {
+      "locationCity": "Nyborg. Denmark",
+      "locationStreet": "Vesterhavnen 5, 5800 Nyborg, Denmark",
+      "locationPhone": "+45 78 78 70 27",
+      "locationEmail": "info@ovdal.dk",
+      "id": 1
+    },
+    {
+      "locationCity": "Lviv. Ukraine",
+      "locationStreet": "Chornovola 63, str",
+      "locationPhone": "+45 78 78 70 27",
+      "locationEmail": "info@ovdal.dk",
+      "id": 2
+    }
+  ],
+  "copyright": [
+    {
+      "copyTitle": "Generelle vilkår",
+      "copyLink": "/",
+      "id": 1
+    },
+    {
+      "copy-title": "Generelle",
+      "copy-link": "/",
+      "id": 2
+    }
+  ],
+  "index": {
+    "title": "Udvikling af apps, websites og webshops | Ovdal.dk",
+    "layoutModel": "'banner banner banner' '. cases .' '. kompetencer .' 'process process process'"
+  },
+  "casesList": {
+    "title": "Cases",
+    "descr": "We've worked with more than 30 organizations such as Danhostel, Happy Helper and EfterskoleBussen.",
+    "cases": [
+      {
+        "id": 1,
+        "title": "Accelerace",
+        "shortDescr": "Mobiloptimeret shopping",
+        "type": "Web site",
+        "category": "Category",
+        "logoImg": "assets/test_img/accelerance.png",
+        "bckImg": "",
+        "bckColor": "#25262D",
+        "promoImg": "assets/test_img/acelerence-promo.png"
+      },
+      {
+        "id": 2,
+        "title": "Happy Helper",
+        "shortDescr": "Intelligent platformsløsning",
+        "type": "Web site / Mobile app",
+        "category": "Category",
+        "logoImg": "assets/test_img/hh.png",
+        "bckImg": "assets/test_img/hh-bck.jpg",
+        "bckColor": "",
+        "promoImg": "assets/test_img/hh-promo.png"
+      },
+      {
+        "id": 3,
+        "title": "Din Tøjmand",
+        "shortDescr": "Mobiloptimeret shopping",
+        "type": "Web site",
+        "category": "Category",
+        "logoImg": "assets/test_img/din.png",
+        "bckImg": "",
+        "bckColor": "#385D80",
+        "promoImg": "assets/test_img/din-promo.png"
+      }
+    ]
+  },
+  "casesDetails": [
+    {
+      "title": "Accelerance",
+      "descr": "<p>If you’re having trouble getting motivated to keep to your fitness program … or if you haven’t even got off the starting block yet, this article could change your life! Not completely … that would be too ambitious! But, there’s a tiny, inexpensive device that can provide you with all the motivation you need to get out and start moving your body around a bit more. The pedometer, as it’s known, can also make you WANT to do it and can even get you to ENJOY doing it!</p>",
+      "imageM": [
+        {
+          "gridName": "1/2/2/6",
+          "margin": false,
+          "src": "/assets/test_img/portfoli-first-promo.jpg",
+          "alt": "Happy Helper first image"
+        },
+        {
+          "gridName": "4/1/5/7",
+          "margin": true,
+          "src": "/assets/test_img/portfolio-full-page-banener.jpg",
+          "alt": "Happy Helper big image"
+        },
+        {
+          "gridName": "6/2/7/6",
+          "margin": false,
+          "src": "/assets/test_img/portfolio-colage.jpg",
+          "alt": "Happy Helper concepts"
+        },
+        {
+          "gridName": "7/2/8/3",
+          "margin": true,
+          "src": "/assets/test_img/blond-hair.jpg",
+          "alt": "smaaal image"
+        },
+        {
+          "gridName": "8/4/9/6",
+          "margin": true,
+          "src": "/assets/test_img/blond-hair.jpg",
+          "alt": "smaaal image"
+        }
+
+      ],
+      "textM": [
+        {
+          "gridName": "2/2/3/4",
+          "margin": true,
+          "title": "The Challenge",
+          "descr": "<p>If youre having trouble getting motivated to keep to your fitness program … or if you havent even got off the starting block yet, this article could change your life! Not completely … that would be too ambitious! But, there’s a tiny, inexpensive device that can provide you with all the motivation you need to get out and start moving your body around a bit more. The pedometer, as it’s known, can also make you WANT to do it and can even get you to ENJOY doing it!</p>"
+        },
+        {
+          "gridName": "2/4/3/6",
+          "margin": true,
+          "title": "How it works?",
+          "descr": "<p>If youre having trouble getting motivated to keep to your fitness program … or if you havent even got off the starting block yet, this article could change your life! Not completely … that would be too ambitious! But, there’s a tiny, inexpensive device that can provide you with all the motivation you need to get out and start moving your body around a bit more. The pedometer, as it’s known, can also make you WANT to do it and can even get you to ENJOY doing it!</p>"
+        },
+        {
+          "gridName": "3/2/4/6",
+          "margin": false,
+          "title": "How it works?",
+          "descr": "<p>If youre having trouble getting motivated to keep to your fitness program … or if you havent even got off the starting block yet, this article could change your life! Not completely … that would be too ambitious! But, there’s a tiny, inexpensive device that can provide you with all the motivation you need to get out and start moving your body around a bit more. The pedometer, as it’s known, can also make you WANT to do it and can even get you to ENJOY doing it!</p>"
+        },
+        {
+          "gridName": "5/2/6/6",
+          "margin": false,
+          "title": "Concepts",
+          "descr": "<p>If you’re having trouble getting motivated to keep to your fitness program … or if you haven’t even got off the starting block yet, this article could change your life! Not completely … that would be too ambitious! But, there’s a tiny, inexpensive device that can provide you with all the motivation you need to get out and start moving your body around a bit more. The pedometer, as it’s known, can also make you WANT to do it and can even get you to ENJOY doing it!</p>         <p>lIt’s a small, compact device used for measuring the number of steps taken. And, as well as measuring the number of steps taken when exercising in your local neighborhood, it can also measure your steps whilst you’re climbing the stairs, mowing the lawn, or doing the shopping. 2. How Does It Work?</p><p>It’s small enough to clip to your belt and is fitted with a pendulum which measures one step each time your foot makes contact with the ground. </p>"
+        },
+        {
+          "gridName": "7/3/8/6",
+          "margin": false,
+          "title": "Lorem ipsum dolor sit amet",
+          "descr": "<p>If you’re having trouble getting motivated to keep to your fitness program … or if you haven’t even can also make you WANT to do it and can even get you to ENJOY doing it!</p>         <p>lIt’s a small, compact device used for measuring the number of steps taken. And, as well as measuring the number of steps taken when exercising in your local neighborhood, it can also measure your steps whilst you’re climbing the stairs, mowing the lawn, or doing the shopping. 2. How Does It Work?</p><p>It’s small enough to clip to your belt and is fitted with a pendulum which measures one step each time your foot makes contact with the ground. </p>"
+        },
+        {
+          "gridName": "8/2/9/4",
+          "margin": false,
+          "title": "Lorem ipsum dolor sit amet",
+          "descr": "<p>If you’re having trouble getting motivated to keep to your fitness program … or if you haven’t even can also make you WANT to do it and can even get you to ENJOY doing it!</p>         <p>lIt’s a small, compact device used for measuring the number of steps taken. And, as well as measuring the number of steps taken when exercising in your local neighborhood, it can also measure your steps whilst you’re climbing the stairs, mowing the lawn, or doing the shopping. 2. How Does It Work?</p><p>It’s small enough to clip to your belt and is fitted with a pendulum which measures one step each time your foot makes contact with the ground. </p>"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "title": "Happy Helper",
+      "descr": "<p>If you’re having trouble getting motivated to keep to your fitness program … or if you haven’t even got off the starting block yet, this article could change your life! Not completely … that would be too ambitious! But, there’s a tiny, inexpensive device that can provide you with all the motivation you need to get out and start moving your body around a bit more. The pedometer, as it’s known, can also make you WANT to do it and can even get you to ENJOY doing it!</p>",
+      "imageM": [
+        {
+          "gridName": "1/2/2/6",
+          "margin": false,
+          "src": "/assets/test_img/portfoli-first-promo.jpg",
+          "alt": "Happy Helper first image"
+        },
+        {
+          "gridName": "4/1/5/7",
+          "margin": true,
+          "src": "/assets/test_img/portfolio-full-page-banener.jpg",
+          "alt": "Happy Helper big image"
+        },
+        {
+          "gridName": "6/2/7/6",
+          "margin": true,
+          "src": "/assets/test_img/portfolio-colage.jpg",
+          "alt": "Happy Helper concepts"
+        },
+        {
+          "gridName": "7/2/8/3",
+          "margin": true,
+          "src": "/assets/test_img/blond-hair.jpg",
+          "alt": "smaaal image"
+        },
+        {
+          "gridName": "8/4/9/6",
+          "margin": true,
+          "src": "/assets/test_img/blond-hair.jpg",
+          "alt": "smaaal image"
+        }
+
+      ],
+      "textM": [
+        {
+          "gridName": "2/2/3/4",
+          "margin": true,
+          "title": "The Challenge",
+          "descr": "<p>If youre having trouble getting motivated to keep to your fitness program … or if you havent even got off the starting block yet, this article could change your life! Not completely … that would be too ambitious! But, there’s a tiny, inexpensive device that can provide you with all the motivation you need to get out and start moving your body around a bit more. The pedometer, as it’s known, can also make you WANT to do it and can even get you to ENJOY doing it!</p>"
+        },
+        {
+          "gridName": "2/4/3/6",
+          "margin": true,
+          "title": "How it works?",
+          "descr": "<p>If youre having trouble getting motivated to keep to your fitness program … or if you havent even got off the starting block yet, this article could change your life! Not completely … that would be too ambitious! But, there’s a tiny, inexpensive device that can provide you with all the motivation you need to get out and start moving your body around a bit more. The pedometer, as it’s known, can also make you WANT to do it and can even get you to ENJOY doing it!</p>"
+        },
+        {
+          "gridName": "3/2/4/6",
+          "margin": false,
+          "title": "How it works?",
+          "descr": "<p>If youre having trouble getting motivated to keep to your fitness program … or if you havent even got off the starting block yet, this article could change your life! Not completely … that would be too ambitious! But, there’s a tiny, inexpensive device that can provide you with all the motivation you need to get out and start moving your body around a bit more. The pedometer, as it’s known, can also make you WANT to do it and can even get you to ENJOY doing it!</p>"
+        },
+        {
+          "gridName": "5/2/6/6",
+          "margin": false,
+          "title": "Concepts",
+          "descr": "<p>If you’re having trouble getting motivated to keep to your fitness program … or if you haven’t even got off the starting block yet, this article could change your life! Not completely … that would be too ambitious! But, there’s a tiny, inexpensive device that can provide you with all the motivation you need to get out and start moving your body around a bit more. The pedometer, as it’s known, can also make you WANT to do it and can even get you to ENJOY doing it!</p>         <p>lIt’s a small, compact device used for measuring the number of steps taken. And, as well as measuring the number of steps taken when exercising in your local neighborhood, it can also measure your steps whilst you’re climbing the stairs, mowing the lawn, or doing the shopping. 2. How Does It Work?</p><p>It’s small enough to clip to your belt and is fitted with a pendulum which measures one step each time your foot makes contact with the ground. </p>"
+        },
+        {
+          "gridName": "7/3/8/6",
+          "margin": false,
+          "title": "Lorem ipsum dolor sit amet",
+          "descr": "<p>If you’re having trouble getting motivated to keep to your fitness program … or if you haven’t even can also make you WANT to do it and can even get you to ENJOY doing it!</p>         <p>lIt’s a small, compact device used for measuring the number of steps taken. And, as well as measuring the number of steps taken when exercising in your local neighborhood, it can also measure your steps whilst you’re climbing the stairs, mowing the lawn, or doing the shopping. 2. How Does It Work?</p><p>It’s small enough to clip to your belt and is fitted with a pendulum which measures one step each time your foot makes contact with the ground. </p>"
+        },
+        {
+          "gridName": "8/2/9/4",
+          "margin": false,
+          "title": "Lorem ipsum dolor sit amet",
+          "descr": "<p>If you’re having trouble getting motivated to keep to your fitness program … or if you haven’t even can also make you WANT to do it and can even get you to ENJOY doing it!</p>         <p>lIt’s a small, compact device used for measuring the number of steps taken. And, as well as measuring the number of steps taken when exercising in your local neighborhood, it can also measure your steps whilst you’re climbing the stairs, mowing the lawn, or doing the shopping. 2. How Does It Work?</p><p>It’s small enough to clip to your belt and is fitted with a pendulum which measures one step each time your foot makes contact with the ground. </p>"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "title": "DinTojmand",
+      "descr": "<p>If you’re having trouble getting motivated to keep to your fitness program … or if you haven’t even got off the starting block yet, this article could change your life! Not completely … that would be too ambitious! But, there’s a tiny, inexpensive device that can provide you with all the motivation you need to get out and start moving your body around a bit more. The pedometer, as it’s known, can also make you WANT to do it and can even get you to ENJOY doing it!</p>",
+      "imageM": [
+        {
+          "gridName": "1/2/2/6",
+          "margin": false,
+          "src": "/assets/test_img/portfoli-first-promo.jpg",
+          "alt": "Happy Helper first image"
+        },
+        {
+          "gridName": "4/1/5/7",
+          "margin": true,
+          "src": "/assets/test_img/portfolio-full-page-banener.jpg",
+          "alt": "Happy Helper big image"
+        },
+        {
+          "gridName": "6/2/7/6",
+          "margin": false,
+          "src": "/assets/test_img/portfolio-colage.jpg",
+          "alt": "Happy Helper concepts"
+        },
+        {
+          "gridName": "7/2/8/3",
+          "margin": true,
+          "src": "/assets/test_img/blond-hair.jpg",
+          "alt": "smaaal image"
+        },
+        {
+          "gridName": "8/4/9/6",
+          "margin": true,
+          "src": "/assets/test_img/blond-hair.jpg",
+          "alt": "smaaal image"
+        }
+
+      ],
+      "textM": [
+        {
+          "gridName": "2/2/3/4",
+          "margin": true,
+          "title": "The Challenge",
+          "descr": "<p>If youre having trouble getting motivated to keep to your fitness program … or if you havent even got off the starting block yet, this article could change your life! Not completely … that would be too ambitious! But, there’s a tiny, inexpensive device that can provide you with all the motivation you need to get out and start moving your body around a bit more. The pedometer, as it’s known, can also make you WANT to do it and can even get you to ENJOY doing it!</p>"
+        },
+        {
+          "gridName": "2/4/3/6",
+          "margin": true,
+          "title": "How it works?",
+          "descr": "<p>If youre having trouble getting motivated to keep to your fitness program … or if you havent even got off the starting block yet, this article could change your life! Not completely … that would be too ambitious! But, there’s a tiny, inexpensive device that can provide you with all the motivation you need to get out and start moving your body around a bit more. The pedometer, as it’s known, can also make you WANT to do it and can even get you to ENJOY doing it!</p>"
+        },
+        {
+          "gridName": "3/2/4/6",
+          "margin": false,
+          "title": "How it works?",
+          "descr": "<p>If youre having trouble getting motivated to keep to your fitness program … or if you havent even got off the starting block yet, this article could change your life! Not completely … that would be too ambitious! But, there’s a tiny, inexpensive device that can provide you with all the motivation you need to get out and start moving your body around a bit more. The pedometer, as it’s known, can also make you WANT to do it and can even get you to ENJOY doing it!</p>"
+        },
+        {
+          "gridName": "5/2/6/6",
+          "margin": false,
+          "title": "Concepts",
+          "descr": "<p>If you’re having trouble getting motivated to keep to your fitness program … or if you haven’t even got off the starting block yet, this article could change your life! Not completely … that would be too ambitious! But, there’s a tiny, inexpensive device that can provide you with all the motivation you need to get out and start moving your body around a bit more. The pedometer, as it’s known, can also make you WANT to do it and can even get you to ENJOY doing it!</p>         <p>lIt’s a small, compact device used for measuring the number of steps taken. And, as well as measuring the number of steps taken when exercising in your local neighborhood, it can also measure your steps whilst you’re climbing the stairs, mowing the lawn, or doing the shopping. 2. How Does It Work?</p><p>It’s small enough to clip to your belt and is fitted with a pendulum which measures one step each time your foot makes contact with the ground. </p>"
+        },
+        {
+          "gridName": "7/3/8/6",
+          "margin": false,
+          "title": "Lorem ipsum dolor sit amet",
+          "descr": "<p>If you’re having trouble getting motivated to keep to your fitness program … or if you haven’t even can also make you WANT to do it and can even get you to ENJOY doing it!</p>         <p>lIt’s a small, compact device used for measuring the number of steps taken. And, as well as measuring the number of steps taken when exercising in your local neighborhood, it can also measure your steps whilst you’re climbing the stairs, mowing the lawn, or doing the shopping. 2. How Does It Work?</p><p>It’s small enough to clip to your belt and is fitted with a pendulum which measures one step each time your foot makes contact with the ground. </p>"
+        },
+        {
+          "gridName": "8/2/9/4",
+          "margin": false,
+          "title": "Lorem ipsum dolor sit amet",
+          "descr": "<p>If you’re having trouble getting motivated to keep to your fitness program … or if you haven’t even can also make you WANT to do it and can even get you to ENJOY doing it!</p>         <p>lIt’s a small, compact device used for measuring the number of steps taken. And, as well as measuring the number of steps taken when exercising in your local neighborhood, it can also measure your steps whilst you’re climbing the stairs, mowing the lawn, or doing the shopping. 2. How Does It Work?</p><p>It’s small enough to clip to your belt and is fitted with a pendulum which measures one step each time your foot makes contact with the ground. </p>"
+        }
+      ],
+      "id": 3
+    }
+  ],
+  "kompetencerList":{
+    "title":"Kompetencer",
+    "descr":"We've worked with more than 30 organizations such as Danhostel, Happy Helper and EfterskoleBussen.",
+    "textM":[
+      {
+        "gridName": "1/3/2/5",
+        "margin": false,
+        "title": "Vi udvikler, optimere og vedligeholder",
+        "descr": "<p>Vi er et digitalt bureau med speciale i at udvikle, optimere og vedligeholde digitale forretninger. Vi lever af at lave digitale platforme, der understøtter fremtidsvisionerne i forretninger.</p>"
+      },
+      {
+        "gridName": "3/3/4/5",
+        "margin": false,
+        "title": "Vi kan løse alle  dele af din digitale udviklingsproces",
+        "descr": "<p>Vores kompetencer spænder bredt, og vi hjælper i alle dele af din digitale udviklingsproces. Vores hold står klar til at hjælpe med alt lige fra din digitale forretningsudvikling til ux, design, programmering og markedsføring.</p>"
+      }
+    ],
+    "imageM": [
+      {
+        "gridName": "2/3/3/5",
+        "margin": false,
+        "src": "/assets/test_img/services.jpg",
+        "alt": "Kompetencer alt image"
+      }
+    ],
+    "kompetencers":[
+      {
+      "title":"Digital forretningsudvikling",
+      "bck":"#25262d",
+        "id":1
+      },
+      {
+        "title":"Ux process",
+        "bck":"#2EDAF4",
+        "id":2
+      },
+      {
+        "title":"Ui design",
+        "bck":"#3AB3E1",
+        "id":3
+      },
+      {
+        "title":"Programing",
+        "bck":"#305374",
+        "id":4
+      },
+      {
+        "title":"Digital markedsførin",
+        "bck":"#EF4F50",
+        "id":5
+      }
+    ]
+  },
+  "kompetencerDetails":[
+
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "/menu":{
+    "target":"http://localhost:3000/",
+    "secure":false
+  },
+  "/banner":{
+    "target":"http://localhost:3000/",
+    "secure":false
+  }
+}

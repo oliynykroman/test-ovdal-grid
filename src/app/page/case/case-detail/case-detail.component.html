@@ -1,0 +1,5 @@
+<ng-container *ngIf="(caseDetail$ | async) as caseDetail">
+  <app-main-title [item]="caseDetail" class="content-title"></app-main-title>
+  <app-article [item]="caseDetail"></app-article>
+</ng-container>
+

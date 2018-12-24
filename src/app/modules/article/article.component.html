@@ -1,0 +1,14 @@
+<ng-container *ngIf="item">
+  <article id="article" class="content" data-aos="fade-up" data-aos-duration="500">
+    <!--only image module-->
+    <div *ngFor="let imageM of item.imageM; index as i" [ngStyle]="{'grid-area': item.imageM[i].gridName}"
+         [class.marginbottom]="item.imageM[i].margin">
+      <app-image-module [item]="imageM"></app-image-module>
+    </div>
+    <div class="text-block" *ngFor="let textM of item.textM; index as i"
+         [ngStyle]="{'grid-area': item.textM[i].gridName}"
+         [class.marginbottom]="item.textM[i].margin">
+      <app-text-module [item]="textM"></app-text-module>
+    </div>
+  </article>
+</ng-container>

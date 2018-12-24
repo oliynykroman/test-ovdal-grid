@@ -1,0 +1,28 @@
+//grid layout
+.grid-layout {
+  display: grid;
+  grid-template-columns: 1fr 120px;
+  grid-template-rows: minmax(70px, 120px) 1fr 500px;
+  min-height: 100%;
+  grid-template-areas:
+    'header menu'
+    'content menu'
+    'footer footer';
+}
+
+.header {
+  grid-area: header;
+}
+
+.menu {
+  grid-area: menu;
+}
+
+.content {
+  grid-area: content;
+}
+
+.footer {
+  grid-area: footer;
+}
+

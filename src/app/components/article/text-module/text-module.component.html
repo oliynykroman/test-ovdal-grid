@@ -1,0 +1,8 @@
+<ng-container *ngIf="item">
+  <div class="text-block module" data-aos="fade-up">
+    <div class="center-cont">
+      <h2>{{item.title}}</h2>
+     <div [innerHtml]="item.descr"></div>
+    </div>
+  </div>
+</ng-container>

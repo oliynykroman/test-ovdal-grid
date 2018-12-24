@@ -1,0 +1,29 @@
+<main class="content-grid" *ngIf="(indexPageData$ | async) as indexPageData" [ngStyle]="{'grid-template-areas': indexPageData.layoutModel}">
+  <app-banner [ngClass]="'main-banner'"></app-banner>
+  <section id="cases" class="cases margin-section" *ngIf="(caseList$ | async) as caseList">
+    <div class="center-cont" data-aos="fade-up">
+      <h2 class="section-title">{{caseList.title}}</h2>
+      <div class="case-list">
+        <app-case-item *ngFor="let item of caseList.cases | slice:0: 3;" [item]="item"></app-case-item>
+      </div>
+      <div class="button-more" *ngIf="caseList.cases.length > 2">
+        <a class="button masked-button black" [routerLink]="['/cases']">
+          <div class="mask-up">
+            <div class="masked-cont">
+              <span>See all cases</span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="kompetencer margin-section" data-aos="fade-up" *ngIf="(kompetencerList$ | async) as kompetencerList">
+    <div class="center-cont">
+      <h2 class="section-title">Kompetencer</h2>
+      <div class="kompetencer-list">
+        <app-kompetencer-item *ngFor="let kompItem of kompetencerList.kompetencers" [kompItem]="kompItem"></app-kompetencer-item>
+      </div>
+    </div>
+  </section>
+  <app-proccess [ngClass]="'process main-circle margin-section'"></app-proccess>
+</main>

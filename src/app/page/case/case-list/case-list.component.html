@@ -1,0 +1,6 @@
+<div *ngIf="(caseList$ | async) as caseList" id="cases" class="content-grid cases padding-section" data-aos="fade-up">
+  <app-main-title [item]="caseList" class="content-title"></app-main-title>
+  <section id="projects" class="case-list">
+    <app-case-item *ngFor="let item of caseList.cases" [item]="item"></app-case-item>
+  </section>
+</div>
