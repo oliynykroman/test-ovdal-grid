@@ -1,4 +1,4 @@
-<!--<div *ngIf="(kompetencerItem$ | async) as kompetencerItem" id="kompetencer" class="kompetencer" data-aos="fade-up">-->
-  <!--<app-main-title [item]="kompetencerItem" class="content-title"></app-main-title>-->
-  <!--<app-article [item]="kompetencerItem" class="content-container"></app-article>-->
-<!--</div>-->
+<div *ngIf="(kompetencer$ | async) as kompetencer" class="content" data-aos="fade-up">
+  <app-main-title [item]="kompetencer" class="content-title"></app-main-title>
+  <app-article [item]="kompetencer" class="content-container"></app-article>
+</div>

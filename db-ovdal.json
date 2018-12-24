@@ -492,64 +492,51 @@
       "descr": "",
       "imageM": [
         {
-          "gridName": "1/2/2/6",
-          "margin": false,
-          "src": "/assets/test_img/portfoli-first-promo.jpg",
-          "alt": "Happy Helper first image"
-        },
-        {
-          "gridName": "4/1/5/7",
+          "gridName": "2/2/3/6",
           "margin": true,
-          "src": "/assets/test_img/portfolio-full-page-banener.jpg",
-          "alt": "Happy Helper big image"
+          "src": "/assets/test_img/black-coffee.jpg",
+          "alt": "UX first image"
         },
         {
-          "gridName": "6/2/7/6",
-          "margin": false,
-          "src": "/assets/test_img/portfolio-colage.jpg",
+          "gridName": "3/2/4/4",
+          "margin": true,
+          "src": "/assets/test_img/blond-hair.jpg",
+          "alt": "ux second img"
+        },
+        {
+          "gridName": "4/5/5/6",
+          "margin": true,
+          "src": "/assets/test_img/services.jpg",
           "alt": "Happy Helper concepts"
-        },
-        {
-          "gridName": "7/2/8/3",
-          "margin": true,
-          "src": "/assets/test_img/blond-hair.jpg",
-          "alt": "smaaal image"
-        },
-        {
-          "gridName": "8/4/9/6",
-          "margin": true,
-          "src": "/assets/test_img/blond-hair.jpg",
-          "alt": "smaaal image"
         }
-
       ],
       "textM": [
         {
           "gridName": "1/2/2/6",
-          "margin": true,
+          "margin": false,
           "title": "",
           "descr": "<p>En fantastisk User Experience er ikke bare godt for brugerne – det er også godt for forretningen.</p><p>UX handler om at undersøge kundernes følelsesmæssige oplevelser og optimere dem, så de får den bedst mulige brugeroplevelse. Med en UX-analyse kigger vores hold på brugeroplevelsen, lige fra de lærer jer at kende, til de handler med jer og (forhåbentligt) skaber langvarige relationer med jer.</p><p>Vi undersøger, hvem jeres kernebrugere er, hvordan de interagerer med jer, og hvilke forventninger de har til jer. Til sidst designer vi jeres digitale platforme, så de giver jeres brugere den bedst mulige oplevelse.</p>"
         },
         {
-          "gridName": "3/2/4/6",
+          "gridName": "3/4/4/6",
           "margin": true,
           "title": "Hvorfor skal man tænke på UX?",
           "descr": "<p>I det digitale univers er konkurrentens hjemmeside kun ét klik væk, og ofte findes der produkter/services på konkurrerende sider, der stort set er ens med dem, man selv tilbyder. Det er derfor vigtigt at kunne skille sig ud fra konkurrenterne på andre parametre end produktet, og her er ens User Experience et oplagt parameter. </p><p>En god User Experience kan gøre forskellen på om brugerne</p><ul><li>forstår og gider at købe på/bruge jeres hjemmeside</li><li>vælger jeres hjemmeside, service eller teknologi fremfor jeres konkurrenters</li><li>kommer trofast igen eller shopper rundt mellem de forskellige muligheder, næste gang de er på udkig efter det, I tilbyder.</li></ul>"
         },
         {
-          "gridName": "4/3/5/6",
+          "gridName": "4/2/5/5",
           "margin": true,
           "title": "Vi udvikler, optimere og vedligeholder",
           "descr": "<p>Samtidig er det ofte relativ nemt at lave store forbedringer i ens User Experience, fordi der ikke skal særligt store mængder af data til for at gøre en forskel.</p><p>Ved at teste 5 brugere kan man finde 85 % af alle UX problemer.</p><p>Det betyder, at vores hold kan undersøge og forbedre jeres UX væsentligt bare ved at afprøve jeres nuværende kunderejse med 5 brugere. I forhold til de mange hundrede eller tusinder brugere der skal til for at lave en relevant kvantitativ analyse, er UX-analysen altså forholdsvis nem at lave.</p>"
         },
         {
-          "gridName": "5/2/6/5",
+          "gridName": "5/2/6/4",
           "margin": true,
           "title": "UX - Design med jeres brugere i fokus",
           "descr": " <p> Det helt essentielle hovedfokus i User Experience er jeres brugere, og hvordan I designer denbedst mulige oplevelse for dem.</p><p> Selvom mange virksomheder tror, de ved præcis</p> <ul><li>hvem deres brugere er</li><li>hvad brugerne leder efter</li><li>hvordan de foretrækker at lede</li><li>og hvorfor de gør det,</li> </ul><p> så bliver de fleste overraskede, når de går i gang med at undersøge den oplevelse, de skaber for  deres brugere, og hvordan brugerne opfatter den.</p> <a href='/'>Kontakt os og hør mere om mulighederne for dit projekt</a>"
         },
         {
-          "gridName": "6/2/7/6",
+          "gridName": "5/4/6/6",
           "margin": true,
           "title": "Hvordan undersøger man User Experience?",
           "descr": "<p>Når vi undersøger jeres User Experience, kigger vores hold på</p> <ul> <li>Hvordan brugerne oplever jeres forretning, når de møder den første gang. Hvilke indtryk og forventninger brugerne har til jer, online såvel som offline. Opfylder I dem? </li> <li>Den række af handlinger, som brugerne skal foretage for at få fat i jer, jeres produkt eller service. Måske har I forhindringer undervejs, der gør det besværligt, eller helt umuligt, for brugerne at nå deres mål. Kan vi forbedre jeres usability eller User Interface? </li> <li>De tanker og følelser, som brugerne oplever undervejs i deres interaktion med jeres virksomhed. Er der noget, de mangler svar på, eller en ekstra service, de godt kunne tænke sig? Er I troværdige og er jeres forretning gennemskuelig?</li><li>Den helhedsoplevelse jeres User Experience efterlader brugerne med. Har de lyst til at komme tilbage? Fik de den ekstra gode oplevelse, der gør, at de fortæller om jer til andre? </li></ul>"
