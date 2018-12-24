@@ -2,6 +2,13 @@
   display: grid;
   grid-template-columns: 1fr minmax(300px, 1170px) 1fr;
 }
-.content-grid{
+.content-title{
+  grid-column: 2/3;
+  margin-top: 60px;
+}
+.content-container{
+  grid-column: 1/4;
+}
+.case-list{
   grid-column: 2/3;
 }
