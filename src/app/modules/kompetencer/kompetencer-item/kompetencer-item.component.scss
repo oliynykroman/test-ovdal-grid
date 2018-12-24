@@ -1,0 +1,64 @@
+@import "../../../../assets/_scss-vars/typo";
+.kompetencer-list {
+  max-width: 1170px;
+}
+
+.kompetencer-item {
+  margin-bottom: 1px;
+  border-radius: 2px;
+  color: var(--white);
+  padding: 28px 20px;
+  display: flex;
+  height: 260px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+  text-decoration: none;
+  transition-property: opacity, transform, -webkit-transform, background-color !important;
+  overflow: hidden;
+  &:hover {
+    color: var(--white);
+    .read-more {
+      &:after {
+        padding-left: 15px;
+      }
+    }
+  }
+}
+
+.kompetencer-count {
+  font-weight: 600;
+  line-height: normal;
+  //font-size: var(--h3);
+  font-size:1em;
+}
+
+.kompetencer-title {
+  font-weight: 600;
+  line-height: 1;
+  //font-size: var(--h3);
+  font-size: 1em;
+  text-transform: uppercase;
+  margin-top: .6em;
+  margin-bottom: 1.5em;
+  @include ellipsis;
+  width: 100%;
+  p{
+    @include ellipsis;
+    width: 100%;
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .kompetencer-item {
+    padding: 28px 35px;
+  }
+  .kompetencer-title {
+    max-width: 800px;
+  }
+  .kompetencer-count, .kompetencer-title  {
+    font-size: var(--h3);
+  }
+}

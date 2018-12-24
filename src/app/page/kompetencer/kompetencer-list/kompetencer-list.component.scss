@@ -1,0 +1,7 @@
+.kompetencer {
+  display: grid;
+  grid-template-columns: 1fr minmax(300px, 1170px) 1fr;
+}
+.content-grid{
+  grid-column: 2/3;
+}

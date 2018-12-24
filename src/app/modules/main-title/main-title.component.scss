@@ -1,0 +1,63 @@
+@import "../../../assets/_scss-vars/animate";
+//inner pages header block
+.title-group {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 70px;
+  .center-cont {
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .section-title {
+    margin-bottom: 12px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    overflow: hidden;
+    position: relative;
+
+    &:after {
+      content: '';
+      width: 10px;
+      height: 100%;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      background-color: var(--white);
+    }
+  }
+  .title-descr {
+    width: 100%;
+    //font-size: 1.33em;
+    font-size: 1em;
+    max-width: 720px;
+    display: inline-block;
+    p, a {
+      font-weight: normal;
+      font-size: 1em;
+      color: var(--text_c);
+    }
+    p {
+      margin: 0;
+    }
+    a {
+      display: block;
+      text-decoration: underline;
+      @include animate;
+      &:hover {
+        color: var(--red);
+      }
+    }
+  }
+
+}

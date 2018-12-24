@@ -1,0 +1,17 @@
+<section class="banner" role="banner">
+  <div class="banner-container">
+    <div class="banner-image" id="animated-banner">
+      <img src="../../../assets/images/banner.svg" alt="">
+    </div>
+    <div class="cursor">
+      <div id="mask" *ngIf="bannerItem">
+        <p #dataContainer *ngFor="let item of bannerItem | slice:3:4" [innerHTML] = item.text> </p>
+      </div>
+      <div class="banner-description" id="animated-banner-text">
+      </div>
+    </div>
+  </div>
+  <a class="scroll-down click-to-down" href="/#cases">
+    <div class="arr-down"></div>
+  </a>
+</section>

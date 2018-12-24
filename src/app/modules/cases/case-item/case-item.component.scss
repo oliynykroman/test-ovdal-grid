@@ -1,0 +1,146 @@
+@import "../../../../assets/_scss-vars/box";
+@import "../../../../assets/_scss-vars/animate";
+
+.case-list {
+  margin-bottom: 20px;
+}
+
+.case-item {
+  height: 300px;
+  position: relative;
+  color: var(--white);
+  font-size: 1em;
+  mix-blend-mode: normal;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  &:hover {
+    color: var(--white);
+  }
+  a {
+    color: var(--white);
+    &:hover {
+      color: var(--white);
+    }
+  }
+  .case-elem {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 2px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+}
+
+.case-bck {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.case-title {
+  font-weight: 600;
+  font-size: var(--h3);
+  line-height: 1;
+  text-transform: uppercase;
+  margin-bottom: 7px;
+  margin-top: -30px;
+  letter-spacing: -2px;
+  //@include ellipsis;
+}
+
+.case-logo {
+  height: 75px;
+  width: 250px;
+  position: relative;
+  img {
+    max-height: 100%;
+  }
+}
+
+.case-descr {
+  font-size: var(--descriptions);
+  font-weight: 600;
+}
+
+.case-descr, .case-category {
+  opacity: .5;
+}
+
+.case-image-promo {
+  display: none;
+}
+
+.cases-descr-group {
+  font-weight: bold;
+  font-size: 1rem;
+  .case-type {
+    text-transform: uppercase;
+  }
+  .case-category {
+    font-weight: 500;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .case-item {
+    height: 440px;
+    margin-bottom: 20px;
+    font-size: 1.33em;
+    .case-elem {
+      padding: 30px 40px;
+      transition: all .3s ease-in-out;
+      transform-origin: center center;
+
+    }
+    &:hover {
+      .case-elem {
+        transform-origin: center center;
+        transform: scale(.95);
+        box-shadow: var(--shadows_blocks);
+      }
+    }
+  }
+  .case-logo, .cases-title-group, .cases-descr-group {
+    width: 40%;
+  }
+  .case-image-promo {
+    display: block;
+    height: calc(100% - 45px);
+    margin-left: auto;
+    position: absolute;
+    right: 15px;
+    width: calc(49% - 30px);
+    top: 50%;
+    transform: translate3d(0, -50%, 0);
+    img {
+      @include image_center;
+    }
+  }
+}
+
+#projects {
+  .case-item {
+    transform: scale(0);
+    @include animate();
+  }
+  &.show-projects {
+    .case-item {
+      transform: scale(1);
+    }
+  }
+}

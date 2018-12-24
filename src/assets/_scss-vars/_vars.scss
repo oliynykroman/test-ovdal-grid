@@ -1,0 +1,59 @@
+/*columns*/
+
+$column_spacer: 15px;
+$column_spacer-left: $column_spacer;
+$column_spacer-right: $column_spacer;
+$column_counter: 12;
+$cont_width: 95%;
+$max_cont_width: 1170px;
+
+$globalPaddingLeft: 60px;
+$globalBigLeft: 75px;
+/*grid sizes*/
+$user-breakpoints: (
+  xs : 540px,
+  s : 769px,
+  m : 960px,
+  l : 1200px
+);
+
+/*Тінь блока*/
+/*$shadow: 0.5px 0.866px 21px 0px rgba(0, 0, 0, 0.14);*/
+/*$txt_shadow:1px 1px 1px rgba(255, 255, 255, 1);*/
+
+/*Блок обовязкових кольорів сайта*/
+$href_c: #000; /*колір гіперпосилань*/
+$text_c: #000; /*колір текста*/
+$err_c: #000; /*колір помилкових полів */
+$notify_c: #000; /*повідомлення*/
+$plch_c: $black; /*плейсхолдери*/
+
+$placeholder-color: $plch_c;
+$required-color: $notify_c;
+$error_formfield-color: $err_c;
+$error_message_block_bck: $err_c;
+$error_message_block_color: $err_c;
+/* стилі плейсхолдерів до купки не клеїти! */
+@mixin placeholder($color:$placeholder-color) {
+  ::-webkit-input-placeholder {
+    color: $color !important;
+    text-transform: uppercase;
+  }
+
+  :-moz-placeholder {
+    color: $color !important;
+    text-transform: uppercase;
+  }
+
+  ::-moz-placeholder {
+    color: $color !important;
+    text-transform: uppercase;
+  }
+
+  :-ms-input-placeholder {
+    color: $color !important;
+    text-transform: uppercase;
+  }
+}
+
+/*icons styles*/

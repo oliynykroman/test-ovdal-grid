@@ -1,0 +1,45 @@
+@import "../../../assets/_scss-vars/box";
+@import "../../../assets/_scss-vars/animate";
+.breadcrumbs-list {
+  @include uls;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  line-height: 30/18;
+  text-transform: uppercase;
+  font-weight: 500;
+  .breadcrumbs-item {
+    &.active {
+      .breadcrumbs-href {
+        color: var(--red);
+      }
+    }
+    &:last-child {
+      .breadcrumbs-href {
+        cursor: default;
+        pointer-events: none;
+        &:after {
+          display: none;
+        }
+      }
+    }
+  }
+  .breadcrumbs-href {
+    color: var(--black);
+    //@include ellipsis;
+    display: inline-block;
+    @include animate;
+    &::after {
+      content: '–';
+      padding: 0 7px;
+      position: relative;
+      top: -3px;
+    }
+    &:hover {
+      color: var(--red);
+    }
+  }
+}

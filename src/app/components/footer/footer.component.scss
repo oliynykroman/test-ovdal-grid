@@ -1,0 +1,252 @@
+@import "../../../assets/_scss-vars/animate";
+
+.footer {
+  background-color: var(--black);
+  color: var(--white);
+  z-index: 5;
+  position: relative;
+  .section-title {
+    position: relative;
+    z-index: 3;
+    //padding: 0 20px;
+
+  }
+}
+
+.footer-map--container {
+  position: relative;
+  //height: 152vw;
+  height: 160vw;
+  //max-height:800px;
+  .section-title {
+    margin-top: 33vw;
+  }
+}
+
+.footer-map--image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 0;
+  svg {
+    width: 440vw;
+    height: 300vw;
+    position: absolute;
+    left: -180vw;
+    top: -140vw;
+    position: absolute;
+    .ukraine, .denmark {
+      fill: var(--red);
+      @include animate();
+    }
+  }
+}
+
+.footer-copy-section {
+  color: rgba(255, 255, 255, .2);
+  font-size: 0.88em;
+  position: absolute;
+  text-align: left;
+  padding: 10px 20px;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-top: 1px solid rgba(255, 255, 255, .3);
+  box-sizing: border-box;
+  .center-cont {
+    padding: 0;
+    margin: 0;
+  }
+  .ofc {
+    position: relative;
+    @include animate();
+    color: var(--white);
+    justify-self: left;
+    margin: 0 0 10px 0;
+    padding-left: 20px;
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%0A%3Csvg width='12px' height='15px' viewBox='0 0 24 30' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg id='Admin-pages' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='1.1-Admin-Destination-edit' transform='translate(-274.000000, -1258.000000)' fill='%23FFFFFF'%3E%3Cg id='CONTENT' transform='translate(241.000000, 186.000000)'%3E%3Cg id='Ports' transform='translate(0.000000, 272.000000)'%3E%3Cg id='%2315' transform='translate(0.000000, 770.000000)'%3E%3Cg id='Doc-icon' transform='translate(33.000000, 30.000000)'%3E%3Cpath d='M2,2 L2,28 L22,28 L22,7.37213902 L16.2146195,2 L2,2 Z M0,0 L17,0 L24,6.5 L24,30 L0,30 L0,0 Z' id=''%3E%3C/path%3E%3Cpolygon id='Line-2' fill-rule='nonzero' points='6.5 14.5 6.5 12.5 18.5 12.5 18.5 14.5'%3E%3C/polygon%3E%3Cpolygon id='Line-2-Copy' fill-rule='nonzero' points='6.5 19.5 6.5 17.5 18.5 17.5 18.5 19.5'%3E%3C/polygon%3E%3Cpolygon id='Path' points='22.2711995 6.75 22.2711995 8.75 15 8.75 15 0 17 0 17 6.75'%3E%3C/polygon%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    &:hover {
+      color: var(--red);
+    }
+  }
+  span {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.adress-block {
+  z-index: 1;
+  position: absolute;
+  display: inline-block;
+  width: 300px;
+  .adress-title {
+    color: var(--red);
+    font-weight: bold;
+    font-size: var(--subtitle);
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+    float: left;
+    width: 100%;
+  }
+  .adress-icon {
+    font-size: var(--descriptions);
+    color: var(--white);
+    font-weight: normal;
+    margin-bottom: 5px;
+    padding-left: 30px;
+    position: relative;
+    float: left;
+    clear: both;
+    @include animate();
+    &:hover {
+      text-decoration: underline;
+    }
+    &:before {
+      font-family: icomoon;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    &.adress-location {
+      &:before {
+        content: "\e907";
+      }
+    }
+    &.adress-mail {
+      &:before {
+        content: "\e908";
+        font-size: 14px;
+        padding-top: 2px;
+      }
+    }
+    &.adress-phone {
+      &:before {
+        content: "\e90a";
+      }
+    }
+  }
+}
+
+.adress-left {
+  left: 20px;
+  top: 25vw;
+  max-width: 50%;
+  text-align: left;
+}
+
+.adress-right {
+  right: 20px;
+  //bottom: 20vw;
+  bottom: 36vw;
+  text-align: right;
+  .adress-icon {
+    float: right;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .adress-right {
+    bottom: 55vw;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .adress-right {
+    bottom: 64vw;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .adress-right {
+    bottom: 68vw;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .footer-copy-section {
+    height: 40px;
+    flex-direction: row;
+    padding: 0 20px;
+    .ofc {
+      margin-left: 2em;
+      margin-bottom: 0;
+    }
+    span {
+      margin-left: auto;
+      margin-right: 2.5em;
+    }
+  }
+}
+
+@media screen and (min-width: 960px) and (orientation: landscape) {
+  .footer-map--container {
+    height: 27vw;
+    min-height: 450px;
+    .section-title {
+      margin-top: 4vw;
+    }
+  }
+  .footer-map--image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 0;
+    svg {
+      //width: 108vw;
+      //height: 135vw;
+      //position: absolute;
+      //top: -21.5vw;
+      //left: -13vw;
+      width: 245vw;
+      height: 205vw;
+      position: absolute;
+      top: -96vw;
+      left: -88vw;
+      .ukraine, .denmark {
+        fill: #50515B;
+      }
+      .active {
+        fill: var(--red);
+        @include animate();
+      }
+    }
+  }
+  .adress-block {
+    &.active {
+      .adress-icon {
+        opacity: 1;
+      }
+    }
+  }
+  .adress-icon {
+    opacity: 0;
+  }
+  .adress-left {
+    left: 16vw;
+    top: 16vw;
+  }
+  .adress-right {
+    right: 11vw;
+    top: 7vw;
+  }
+  .ofc {
+    left: 0;
+  }
+}

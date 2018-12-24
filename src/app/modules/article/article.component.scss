@@ -1,0 +1,14 @@
+@import "../../../assets/_scss-vars/animate";
+@import "../../../assets/_scss-vars/box";
+
+//inner pages styles
+.content {
+  display: grid;
+  grid-template-columns: 1fr repeat(4, minmax(75px, 240px)) 1fr;
+  grid-column-gap: 40px;
+  grid-row-gap: 15px;
+  grid-column: 1/4;
+}
+.marginbottom{
+  margin-bottom: 60px;
+}
