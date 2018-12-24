@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
-import {KompetencerService} from "../../../service/kompetencer.service";
+import {KomeptecerDetail, KompetencerService} from "../../../service/kompetencer.service";
 import {ActivatedRoute} from "@angular/router";
+import {Observable} from "rxjs/index";
 
 @Component({
   selector: 'app-kompetencer-detail',
@@ -8,17 +9,17 @@ import {ActivatedRoute} from "@angular/router";
   styleUrls: ['./kompetencer-detail.component.scss']
 })
 export class KompetencerDetailComponent implements OnInit {
-  // kompetencerItem: Kompetencer;
+  kompetencer$: Observable<KomeptecerDetail>;
 
   constructor(private kompetencerService: KompetencerService, private router: ActivatedRoute) {
   }
 
   ngOnInit() {
-    // this.getKompetencerItem();
+    this.getKompetencerItem();
   }
 
-  // getKompetencerItem(): void {
-  //   const id = +this.router.snapshot.paramMap.get('id');
-  //   this.kompetencerService.getKompetencer(id).subscribe(kompetencer => this.kompetencerItem = kompetencer);
-  // }
+  getKompetencerItem(): void {
+    const id = +this.router.snapshot.paramMap.get('id');
+    this.kompetencer$ = this.kompetencerService.getKompetencer(id);
+  }
 }

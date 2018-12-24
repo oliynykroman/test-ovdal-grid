@@ -8,10 +8,15 @@ export interface KomeptecerList {
   textM: any;
   imageM: any;
   kompetencers:any;
+  id:number;
 }
 
 export interface KomeptecerDetail {
-
+  title: string;
+  description: string;
+  textM: any;
+  imageM: any;
+  id:number;
 }
 
 

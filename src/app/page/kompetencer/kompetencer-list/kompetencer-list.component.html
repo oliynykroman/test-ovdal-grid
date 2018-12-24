@@ -1,10 +1,9 @@
 <div *ngIf="(kompetencerItem$ | async) as kompetencerItem" id="kompetencer" class="kompetencer" data-aos="fade-up">
-  <div class="center-container">
   <app-main-title [item]="kompetencerItem" class="content-title"></app-main-title>
-  <app-article [item]="kompetencerItem"></app-article>
+  <app-article [item]="kompetencerItem" class="content-container"></app-article>
   <!--<app-article></app-article>-->
   <section id="projects" class="case-list">
     <app-kompetencer-item *ngFor="let item of kompetencerItem.kompetencers" [kompItem]="item"></app-kompetencer-item>
   </section>
-  </div>
 </div>
+
