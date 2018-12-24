@@ -25,5 +25,6 @@
       </div>
     </div>
   </section>
-  <app-proccess [ngClass]="'process main-circle margin-section'"></app-proccess>
+  <app-proccess [ngClass]="'process-section'"></app-proccess>
+  <app-carousel [ngClass]="'our-works-slider'" *ngFor="let item of caseList$.cases" [item]="item"></app-carousel>
 </main>
