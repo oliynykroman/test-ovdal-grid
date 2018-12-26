@@ -1,9 +1,9 @@
 <h2 class="section-title">Udvalgte kunder</h2>
-<div class="works-slider">
-  <a href="/" class="works-slider--item">
+<ngx-slick-carousel class="carousel works-slider" #slickModal="slick-carousel"  [config]="slideConfig" *ngIf="">
+  <a href="/" ngxSlickItem *ngFor="let slide of slides" class="slide works-slider--item">
     <div class="works-slider--image">
       <img src="assets/EfterskoleBussen.png" alt="">
     </div>
     <div class="works-slider-hash"><span># Mobile app</span><span>#Web site</span></div>
   </a>
-</div>
+</ngx-slick-carousel>
