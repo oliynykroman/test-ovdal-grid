@@ -1,4 +1,5 @@
-<main class="content-grid" *ngIf="(indexPageData$ | async) as indexPageData" [ngStyle]="{'grid-template-areas': indexPageData.layoutModel}">
+<main class="content-grid" *ngIf="(indexPageData$ | async) as indexPageData"
+      [ngStyle]="{'grid-template-areas': indexPageData.layoutModel}">
   <app-banner [ngClass]="'main-banner'"></app-banner>
   <section id="cases" class="cases margin-section" *ngIf="(caseList$ | async) as caseList">
     <div class="center-cont" data-aos="fade-up">
@@ -21,10 +22,11 @@
     <div class="center-cont">
       <h2 class="section-title">Kompetencer</h2>
       <div class="kompetencer-list">
-        <app-kompetencer-item *ngFor="let kompItem of kompetencerList.kompetencers" [kompItem]="kompItem"></app-kompetencer-item>
+        <app-kompetencer-item *ngFor="let kompItem of kompetencerList.kompetencers"
+                              [kompItem]="kompItem"></app-kompetencer-item>
       </div>
     </div>
   </section>
   <app-proccess [ngClass]="'process-section'"></app-proccess>
-  <app-carousel [ngClass]="'our-works-slider'" *ngFor="let item of caseList$.cases" [item]="item"></app-carousel>
+  <app-carousel [ngClass]="'our-works-slider'"></app-carousel>
 </main>

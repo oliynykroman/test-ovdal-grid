@@ -9,9 +9,13 @@ import {Observable} from "rxjs/index";
 })
 export class CarouselComponent implements OnInit {
 
+  @Input() item: CasesList;
   caseList$: Observable<CasesList[]>;
 
-  slideConfig = {"slidesToShow": 4, "slidesToScroll": 4};
+  slideConfig = {
+    "slidesToShow": 2,
+    "slidesToScroll": 1
+  };
 
   constructor(private casesService: CasesService) {
   }

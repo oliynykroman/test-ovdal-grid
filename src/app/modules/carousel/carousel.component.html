@@ -1,9 +1,10 @@
-<h2 class="section-title">Udvalgte kunder</h2>
-<ngx-slick-carousel class="carousel works-slider" #slickModal="slick-carousel"  [config]="slideConfig" *ngIf="">
-  <a href="/" ngxSlickItem *ngFor="let slide of slides" class="slide works-slider--item">
-    <div class="works-slider--image">
-      <img src="assets/EfterskoleBussen.png" alt="">
-    </div>
-    <div class="works-slider-hash"><span># Mobile app</span><span>#Web site</span></div>
-  </a>
-</ngx-slick-carousel>
+<div *ngIf="(caseList$ | async) as caseList" class="margin-section">
+  <h2 class="section-title">Udvalgte kunder</h2>
+  <ngx-slick-carousel class="carousel works-slider" #slickModal="slick-carousel" [config]="slideConfig">
+    <a href="/" ngxSlickItem *ngFor="let item of caseList.cases" class="slide works-slider--item">
+      <div class="works-slider--image">
+        <img [src]="item.logoImg" [alt]="">
+      </div>
+    </a>
+  </ngx-slick-carousel>
+</div>
