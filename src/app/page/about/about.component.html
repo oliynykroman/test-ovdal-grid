@@ -1,0 +1,5 @@
+<div *ngIf="(article$ | async) as article" class="content" data-aos="fade-up">
+  <app-main-title [item]="article" class="content-title"></app-main-title>
+  <app-article [item]="article" class="content-container"></app-article>
+  <app-contact-form></app-contact-form>
+</div>

@@ -1,0 +1,34 @@
+<form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+  <label>
+    First Name:
+    <input type="text" formControlName="firstName" required>
+  </label>
+
+  <label>
+    Last Name:
+    <input type="text" formControlName="lastName">
+  </label>
+
+  <label>
+    Text:
+    <textarea formControlName="textMessage"></textarea>
+  </label>
+
+  <!--<button type="submit" [disabled]="!profileForm.valid">Submit</button>-->
+</form>
+
+<hr>
+
+
+<p>
+  Form Value: {{ contactForm.value | json }}
+</p>
+
+
+<p>
+  Form Status: {{ contactForm.status }}
+</p>
+
+<p>
+  <button (click)="updateProfile()">Update Profile</button>
+</p>

@@ -96,7 +96,11 @@
         "id": 1,
         "title": "Accelerace",
         "shortDescr": "Mobiloptimeret shopping",
-        "type": ["Web site", "app", "design"],
+        "type": [
+          "Web site",
+          "app",
+          "design"
+        ],
         "category": "Category",
         "logoImg": "assets/test_img/accelerance.png",
         "bckImg": "",
@@ -107,7 +111,11 @@
         "id": 2,
         "title": "Happy Helper",
         "shortDescr": "Intelligent platformsløsning",
-        "type": ["Web site", "mobile-app", "design"],
+        "type": [
+          "Web site",
+          "mobile-app",
+          "design"
+        ],
         "category": "Category",
         "logoImg": "assets/test_img/hh.png",
         "bckImg": "assets/test_img/hh-bck.jpg",
@@ -118,7 +126,9 @@
         "id": 3,
         "title": "Din Tøjmand",
         "shortDescr": "Mobiloptimeret shopping",
-        "type": ["Web site"],
+        "type": [
+          "Web site"
+        ],
         "category": "Category",
         "logoImg": "assets/test_img/din.png",
         "bckImg": "",
@@ -162,7 +172,6 @@
           "src": "/assets/test_img/blond-hair.jpg",
           "alt": "smaaal image"
         }
-
       ],
       "textM": [
         {
@@ -238,7 +247,6 @@
           "src": "/assets/test_img/blond-hair.jpg",
           "alt": "smaaal image"
         }
-
       ],
       "textM": [
         {
@@ -314,7 +322,6 @@
           "src": "/assets/test_img/blond-hair.jpg",
           "alt": "smaaal image"
         }
-
       ],
       "textM": [
         {
@@ -357,10 +364,10 @@
       "id": 3
     }
   ],
-  "kompetencerList":{
-    "title":"Kompetencer",
-    "descr":"We've worked with more than 30 organizations such as Danhostel, Happy Helper and EfterskoleBussen.",
-    "textM":[
+  "kompetencerList": {
+    "title": "Kompetencer",
+    "descr": "We've worked with more than 30 organizations such as Danhostel, Happy Helper and EfterskoleBussen.",
+    "textM": [
       {
         "gridName": "1/2/2/6",
         "margin": true,
@@ -382,35 +389,35 @@
         "alt": "Kompetencer alt image"
       }
     ],
-    "kompetencers":[
+    "kompetencers": [
       {
-      "title":"Digital forretningsudvikling",
-      "bck":"#25262d",
-        "id":1
+        "title": "Digital forretningsudvikling",
+        "bck": "#25262d",
+        "id": 1
       },
       {
-        "title":"Ux process",
-        "bck":"#2EDAF4",
-        "id":2
+        "title": "Ux process",
+        "bck": "#2EDAF4",
+        "id": 2
       },
       {
-        "title":"Ui design",
-        "bck":"#3AB3E1",
-        "id":3
+        "title": "Ui design",
+        "bck": "#3AB3E1",
+        "id": 3
       },
       {
-        "title":"Programing",
-        "bck":"#305374",
-        "id":4
+        "title": "Programing",
+        "bck": "#305374",
+        "id": 4
       },
       {
-        "title":"Digital markedsførin",
-        "bck":"#EF4F50",
-        "id":5
+        "title": "Digital markedsførin",
+        "bck": "#EF4F50",
+        "id": 5
       }
     ]
   },
-  "kompetencerDetails":[
+  "kompetencerDetails": [
     {
       "title": "Accelerance",
       "descr": "<p>If you’re having trouble getting motivated to keep to your fitness program … or if you haven’t even got off the starting block yet, this article could change your life! Not completely … that would be too ambitious! But, there’s a tiny, inexpensive device that can provide you with all the motivation you need to get out and start moving your body around a bit more. The pedometer, as it’s known, can also make you WANT to do it and can even get you to ENJOY doing it!</p>",
@@ -445,7 +452,6 @@
           "src": "/assets/test_img/blond-hair.jpg",
           "alt": "smaaal image"
         }
-
       ],
       "textM": [
         {
@@ -544,5 +550,32 @@
       ],
       "id": 2
     }
-  ]
+  ],
+  "about": {
+    "title": "OM OS",
+    "descr": "Teknologien forandrer konstant verden omkring os. Vi er vilde med udviklingen, og vi arbejder hele tiden med nye muligheder, der gør det muligt at give folk en endnu bedre brugeroplevelse. Vi hjælper jer med at se fremad og udnytte de digitale muligheder i takt med at de opstår; så I kan være på forkant med den teknologiske udvikling og udnytte den bedst muligt i jeres forretning.",
+    "textM": [
+      {
+        "gridName": "1/2/2/4",
+        "margin": true,
+        "title": "Vi sørger for dig",
+        "descr": "<p>ovdal.dk er et digitalt bureau med speciale i at udvikle, optimere og vedligeholde digitale forretninger.</p><p>Hvis I har styr på jeres forretningsmål, sørger vi for, at I udlever jeres fulde digitale potentiale.</p><p>Med andre ord: Vi skaber platforme, der kan præcis dét, I har behov for, også selvom I ikke vidste, at det var en mulighed.</p>"
+      },
+      {
+        "gridName": "1/4/4/6",
+        "margin": true,
+        "title": "Lidt mere om os",
+        "descr": "<p>Vi blev stiftet i 2008, og vi er i dag 30 mand. Vores hold består af udviklere, designere, projektledere og testere. Vi har kontorer i Nyborg og Ukraine</p>"
+      }
+    ],
+    "imageM": [
+      {
+        "gridName": "2/2/2/6",
+        "margin": true,
+        "src": "/assets/test_img/black-coffee.jpg",
+        "alt": "Om os proccess"
+      }
+    ],
+    "id":1
+  }
 }
