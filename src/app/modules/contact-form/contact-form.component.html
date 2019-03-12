@@ -1,0 +1,18 @@
+<form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+  <label>
+    First Name:
+    <input type="text" formControlName="firstName" required>
+  </label>
+
+  <label>
+    Last Name:
+    <input type="text" formControlName="lastName">
+  </label>
+
+  <label>
+    Text:
+    <textarea formControlName="textMessage"></textarea>
+  </label>
+  <button type="submit" [disabled]="!contactForm.valid">Send</button>
+</form>
+<p>value: {{contactForm.status}}</p>

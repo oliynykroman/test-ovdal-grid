@@ -1,0 +1,10 @@
+<div *ngIf="(caseList$ | async) as caseList" class="margin-section">
+  <h2 class="section-title">Udvalgte kunder</h2>
+  <ngx-slick-carousel class="carousel works-slider" #slickModal="slick-carousel" [config]="slideConfig">
+    <a href="/" ngxSlickItem *ngFor="let item of caseList.cases" class="slide works-slider--item">
+      <div class="works-slider--image">
+        <img [src]="item.logoImg" [alt]="">
+      </div>
+    </a>
+  </ngx-slick-carousel>
+</div>

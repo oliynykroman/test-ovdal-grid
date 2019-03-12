@@ -33,12 +33,20 @@ const routes: Routes = [
     loadChildren: './page/kompetencer/kompetencer-detail/kompetencer-detail.module#KompetencerDetailModule',
     data: {breadcrumb: 'id'}
   },
-  {path: '**', component: PageNotFoundComponent}
+  {
+    path: 'about',
+    loadChildren: './page/about/about.module#AboutModule',
+    data:{breadcrumb:'About'}
+  },
+  {
+    path: '**',
+    component: PageNotFoundComponent
+  }
 ];
 
 @NgModule({
   exports: [RouterModule],
-  imports: [RouterModule.forRoot(routes,{scrollPositionRestoration:'enabled'})]
+  imports: [RouterModule.forRoot(routes, {scrollPositionRestoration: 'enabled'})]
 })
 export class AppRoutingModule {
 }

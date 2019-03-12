@@ -7,6 +7,7 @@ import {BannerModule} from "../../modules/banner/banner.module";
 import {ProccessModule} from "../../modules/proccess/proccess.module";
 import {CaseItemModule} from "../../modules/cases/case-item/case-item.module";
 import {KompetencerItemModule} from "../../modules/kompetencer/kompetencer-item/kompetencer-item.module";
+import {CarouselModule} from "../../modules/carousel/carousel.module";
 
 @NgModule({
   imports: [
@@ -15,7 +16,8 @@ import {KompetencerItemModule} from "../../modules/kompetencer/kompetencer-item/
     BannerModule,
     ProccessModule,
     CaseItemModule,
-    KompetencerItemModule
+    CarouselModule,
+    KompetencerItemModule,
   ],
   declarations: [IndexComponent],
   exports: [
