@@ -1,18 +1,42 @@
-<form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
-  <label>
-    First Name:
-    <input type="text" formControlName="firstName" required>
-  </label>
-
-  <label>
-    Last Name:
-    <input type="text" formControlName="lastName">
-  </label>
-
-  <label>
-    Text:
-    <textarea formControlName="textMessage"></textarea>
-  </label>
-  <button type="submit" [disabled]="!contactForm.valid">Send</button>
-</form>
-<p>value: {{contactForm.status}}</p>
+<div class="content-grid">
+  <div class="inner-grid">
+    <div class="form-left">
+      <img src="../../../assets/test_img/blog-4.jpg" alt="">
+    </div>
+    <div class="form-form">
+      <form class="contact-form" [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+        <label class="form-label">
+          Email:
+          <input class="form-input" type="email" formControlName="email" required>
+        </label>
+        <label class="form-label">
+          First Name:
+          <input class="form-input" type="text" formControlName="firstName">
+        </label>
+        <label class="form-label">
+          Last Name:
+          <input class="form-input" type="text" formControlName="lastName">
+        </label>
+        <label class="form-label">
+          Text:
+          <textarea class="form-textarea" formControlName="textMessage"></textarea>
+        </label>
+        <div class="radiobutton-list">
+          <label class="radiobuttion-list-radio">
+            <input type="radio" name="accept-data" id="form-accept-id" value="accepted" data-val="true" class="radio"
+                   data-val-requiredlist="Consent is required to store and process the data in this form." required>
+            Yes, I give permission to store and process my data
+          </label>
+          <label>
+            <input type="radio" name="accept-data"
+                   id="form-decent-id" value="declined" data-val="true"
+                   data-val-requiredlist="Consent is required to store and process the data in this form.">
+            No, I don't consent to storing and processing my data
+          </label>
+        </div>
+        <button class="submit-button" type="submit" [disabled]="!contactForm.valid">Send</button>
+      </form>
+      <p>value: {{contactForm.status}}</p>
+    </div>
+  </div>
+</div>
