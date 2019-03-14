@@ -1,5 +1,7 @@
 import {Component, OnInit} from '@angular/core';
-import {FormBuilder, FormControl, FormGroup, Validators} from "@angular/forms";
+import {FormBuilder, Validators} from "@angular/forms";
+import {ContactDataService, contactFormFields} from "../../service/contact-data.service";
+import {subscribeOn} from "rxjs/internal/operators";
 
 @Component({
   selector: 'app-contact-form',
@@ -15,15 +17,19 @@ export class ContactFormComponent implements OnInit {
     textMessage: ['']
   })
 
-  constructor(private fb: FormBuilder) {
+  constructor(private fb: FormBuilder, private dataService: ContactDataService) {
   }
 
   ngOnInit() {
   }
 
-  onSubmit() {
+  done: boolean = false;
+  requestState: any;
+  errorMessage: any;
 
-    console.log(this.contactForm.value);
+  onSubmit() {
+    this.dataService.addContactData(this.contactForm.value).subscribe(request => this.requestState = request, (error => console.log(error.message)));
   }
+
 
 }
