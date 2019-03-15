@@ -1,0 +1,64 @@
+$form-el-radius: 3px;
+$form-el-border: 0 0 0 1px #dddddd;
+$form-el-bck: #fff;
+
+$input-height: 35px;
+$input-padding: 0 15px;
+
+$textarea-height: 180px;
+
+$form-icons-bck: #fff;
+$form-icons-shadow: 0 0 0 1px #a3a3a3;
+$form-icons-width: 20px;
+$form-icons-height: 20px;
+
+$form-error-shadow: 0 0 0 1px #ca3536;
+
+$button-height: 54px;
+$button-radius: 27px;
+$button-font-size: 1.26em;
+
+.contact-form {
+  .form-label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    .form-input {
+      border: none;
+      border-bottom: 1px solid #dddddd;
+    }
+  }
+  textarea {
+    border: none;
+    border-bottom: 1px solid #dddddd;
+  }
+  .radiobutton-list {
+    display: flex;
+    flex-direction: column;
+    .radiobuttion-list-radio {
+      margin-bottom: 10px;
+    }
+  }
+  .submit-button {
+    background: black;
+    border: none;
+    color: white;
+    width: 150px;
+    font-size: 20px;
+    text-transform: uppercase;
+    height: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+    &:disabled {
+      opacity: .5;
+    }
+  }
+}
+
+.inner-grid {
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  margin: 0 10px;
+}

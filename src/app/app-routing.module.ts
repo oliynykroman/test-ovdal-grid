@@ -39,6 +39,11 @@ const routes: Routes = [
     data:{breadcrumb:'About'}
   },
   {
+    path: 'generate',
+    loadChildren: './page/article-generator/article-generator.module#ArticleGeneratorModule',
+    data:{breadcrumb:'Generator'}
+  },
+  {
     path: '**',
     component: PageNotFoundComponent
   }

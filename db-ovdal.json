@@ -578,6 +578,11 @@
     ],
     "id": 1
   },
+  "generatePage": {
+    "title": "Generate page grid",
+    "descr": "You can generate your own template for some article using CSS grid and text or image module",
+    "id": 1
+  },
   "contacts": [
     {
       "email": "das",

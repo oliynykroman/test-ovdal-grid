@@ -1,0 +1,41 @@
+<div *ngIf="(article$ | async) as article" class="content" data-aos="fade-up">
+  <app-main-title [item]="article" class="content-title"></app-main-title>
+  <div class="content-grid">
+    <div class="inner-grid">
+      <form class="contact-form" action="">
+        <label class="form-label">
+          <span>Select Article</span>
+          <select name="" id="">
+            <option value="">about</option>
+          </select>
+        </label>
+        <div class="article-modules">
+          <div class="article-modules--count">Total: </div>
+          <div class="article-props">
+            <div class="article-modules--title"></div>
+            <div class="article-modules--count"></div>
+          </div>
+          <button class="asdd" type="submit">generate grid</button>
+        </div>
+        <div class="article-grid-props">
+          <label class="form-label">
+            <input type="text" class="form-input">
+            <span>grid column count</span>
+          </label>
+          <label class="form-label">
+            <input type="text" class="form-input">
+            <span>grid row count</span>
+          </label>
+          <label class="form-label">
+            <input type="text" class="form-input">
+            <span>grid gap count</span>
+          </label>
+        </div>
+        <button class="submit-button" type="submit">generate grid</button>
+      </form>
+      <div class="grid-table">
+        <table class="example-table"></table>
+      </div>
+    </div>
+  </div>
+</div>
