@@ -18,4 +18,5 @@ export class ArticleGeneratorComponent implements OnInit {
     this.article$ = this.staticArticleService.getStaticArticle('generatePage');
   }
 
+
 }

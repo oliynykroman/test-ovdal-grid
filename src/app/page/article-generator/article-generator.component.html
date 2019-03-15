@@ -3,21 +3,24 @@
   <div class="content-grid">
     <div class="inner-grid">
       <form class="contact-form" action="">
-        <label class="form-label">
-          <span>Select Article</span>
-          <select name="" id="">
-            <option value="">about</option>
-          </select>
-        </label>
-        <div class="article-modules">
-          <div class="article-modules--count">Total: </div>
-          <div class="article-props">
-            <div class="article-modules--title"></div>
-            <div class="article-modules--count"></div>
-          </div>
-          <button class="asdd" type="submit">generate grid</button>
+        <div class="article-info">
+
+          <label class="form-label">
+            <span>page URL:</span>
+            <input type="text" class="form-input">
+          </label>
+          <label class="form-label">
+            <span>page title:</span>
+            <textarea name="page-title" id="pageTitle" cols="30" rows="3" placeholder="Please add title"></textarea>
+          </label>
+          <label class="form-label">
+            <span>page description:</span>
+            <textarea name="page-title" id="pageDescription" cols="30" rows="5"
+                      placeholder="Please add description"></textarea>
+          </label>
         </div>
         <div class="article-grid-props">
+          <h2>Define grid for content</h2>
           <label class="form-label">
             <input type="text" class="form-input">
             <span>grid column count</span>
@@ -30,8 +33,100 @@
             <input type="text" class="form-input">
             <span>grid gap count</span>
           </label>
+          <button class="submit-button" type="button">generate grid</button>
         </div>
-        <button class="submit-button" type="submit">generate grid</button>
+        <h2 class="article-setup--module">Select module for edit or create new module</h2>
+        <div class="proccess_module">
+          <div class="modules-container">
+            <ul class="modules-list">
+              <li class="module-list--item">
+                <div class="module-group"></div>
+                <div class="show">
+                  <button type="button" class="module-button">edit</button>
+                  <button type="button" class="module-button">remove</button>
+                </div>
+              </li>
+              <li class="module-list--item"></li>
+            </ul>
+            <div class="modules-empty">No modules yet</div>
+            <button type="button">create</button>
+          </div>
+          <div class="modules-edit">
+            <div class="image-module">
+              <label class="form-label">
+                <span>Module title</span>
+                <input type="text" class="form-input">
+              </label>
+              <label class="form-label">
+                <span>Module main text</span>
+                <textarea name="" id="text-module--text" cols="30" rows="10"></textarea>
+              </label>
+              <label class="form-label">
+                <span>Select file</span>
+                <input type="file" class="form-input">
+              </label>
+              <label class="form-label">
+                <span> Image alternative text</span>
+                <input type="text" class="form-input">
+              </label>
+              <div class="module-grid--position">
+                <div class="module-grid--set">
+                  <h4>Select <span>Columns</span> from - to</h4>
+                  <label class="form-label">
+                    <span>From</span>
+                    <input type="number">
+                  </label>
+                  <label class="form-label">
+                    <span>To</span>
+                    <input type="number">
+                  </label>
+                </div>
+                <div class="module-grid--set">
+                  <h4>Select <span>Rows</span> from - to</h4>
+                  <label class="form-label">
+                    <span>From</span>
+                    <input type="number">
+                  </label>
+                  <label class="form-label">
+                    <span>To</span>
+                    <input type="number">
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="text-module">
+              <label class="form-label">
+                <span>Module name</span>
+                <input type="text" class="form-input">
+              </label>
+              <div class="module-grid--position">
+                <div class="module-grid--set">
+                  <h4>Select <span>Columns</span> from - to</h4>
+                  <label class="form-label">
+                    <span>From</span>
+                    <input type="number">
+                  </label>
+                  <label class="form-label">
+                    <span>To</span>
+                    <input type="number">
+                  </label>
+                </div>
+                <div class="module-grid--set">
+                  <h4>Select <span>Rows</span> from - to</h4>
+                  <label class="form-label">
+                    <span>From</span>
+                    <input type="number">
+                  </label>
+                  <label class="form-label">
+                    <span>To</span>
+                    <input type="number">
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button type="submit">save</button>
       </form>
       <div class="grid-table">
         <table class="example-table"></table>
